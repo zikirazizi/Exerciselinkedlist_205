@@ -47,6 +47,7 @@ bool CircularLinkedList::listEmpty() {
 	return LAST == NULL;
 }
 bool CircularLinkedList::delNode() { //write your answer here
+	return LAST == NULL;
 }
 void CircularLinkedList::traverse() {
 	if (listEmpty()) {
